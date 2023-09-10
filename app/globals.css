@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @layer components {
+  .logout-icon {
+    filter: invert(95%) sepia(95%) saturate(0%) hue-rotate(199deg)
+      brightness(105%) contrast(106%);
+  }
+  li {
+    display: inline;
+  }
   /* main */
   .main-container {
     @apply flex min-h-screen flex-1 flex-col items-center bg-dark-1 px-6 pb-10 pt-28 max-md:pb-32 sm:px-10;

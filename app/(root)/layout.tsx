@@ -5,6 +5,8 @@ import LeftSidebar from "@/components/shared/LeftSidebar";
 import RightSidebar from "@/components/shared/RightSidebar";
 import Bottombar from "@/components/shared/Bottombar";
 import Topbar from "@/components/shared/Topbar";
+import About from "@/components/About";
+import Search from "@/components/Search";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,10 +29,11 @@ export default function RootLayout({
             <LeftSidebar />
 
             <section className="main-container">
-              <div className="w-full max-w-4xl">{children}</div>
+              <div className="w-full">{children}</div>
             </section>
-            <RightSidebar />
           </main>
+          <About />
+          {/* <Search /> */}
           <Bottombar />
         </body>
       </html>

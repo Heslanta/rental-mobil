@@ -51,7 +51,8 @@ p {
   left: 50%;
 }
 @layer components {
-  .logout-icon {
+  .logout-icon,
+  .about-icon {
     filter: invert(95%) sepia(95%) saturate(0%) hue-rotate(199deg)
       brightness(105%) contrast(106%);
   }
@@ -74,6 +75,9 @@ p {
   }
 
   /* Activity */
+  .about-card {
+    @apply mt-2;
+  }
   .activity-card {
     @apply flex items-center gap-2 rounded-md bg-dark-2 px-7 py-4;
   }

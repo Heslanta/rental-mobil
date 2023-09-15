@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div>
       <div className="flex flex-col md:flex-row">
-        <div className="w-2/4 pl-36">
+        <div className="w-2/4 pl-20 max-lg:pl-5 max-lg:w-full">
           <UserButton afterSignOutUrl="/" />
-          <h2 className="head-text text-slate-100 text-left pt-20 py-4 flex-1 mt-20 md:mt-0 ">
+          <h2 className="head-text text-slate-100 text-left pt-20 py-4 flex-1 mt-20 md:mt-0 max-md:pt-0 ">
             Sewa dan Rental Mobil Terbaik di kawasan &#40;Lokasimu&#41;
           </h2>
           <p className="flex-1 flex-row text-slate-200 w-3/4 font-medium ">
@@ -75,7 +75,7 @@ export default function Home() {
           alt="Car-Rental"
           width={500}
           height={500}
-          className="float-right r-0 flex-1 p-0 w-10 h-25"
+          className="float-right r-0 flex-1 p-0 w-10 h-25 max-lg:hidden max-md:w-1/2 max-md:h-1/2"
         />
       </div>
       <div className="h-24"></div>

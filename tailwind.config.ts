@@ -197,7 +197,7 @@ module.exports = {
         cta1: "6px 6px 0 #59CE8F",
       },
       screens: {
-        xs: "400px",
+        xs: "375px",
       },
       keyframes: {
         "accordion-down": {
